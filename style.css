@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the "Home" button */
+#home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(31, 161, 26);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home-link:hover {
+    background-color: #555;
+}
+
+/* Style for the "About" button */
+#About-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(35, 23, 146);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#About-link:hover {
+    background-color: #555;
+}
+
+/* Style for the "contact" button */
+#contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(172, 22, 92);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-link:hover {
+    background-color: #555;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
